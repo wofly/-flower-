@@ -1,0 +1,386 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+    text-decoration: none;	
+	color: #000;
+}
+li{
+	list-style: none;
+}
+header{
+	height: 271px;
+	width: 1262px;
+	.yi img{
+		height: 80px;
+		width: 100%;
+		display: block;
+	}
+	.er{
+		height: 36px;
+		background: #f2f2f2;
+		line-height: 36px;
+		
+		.er1{	
+			margin-left: 42px;		  
+			float: left;			
+			a{	
+				float : left;
+				text-decoration: none;
+				margin-right: 20px;
+				font-size: 12px;
+				color: #737373;
+				padding-left : 6px;
+				padding-right : 6px;
+				.er11{
+					width: 20px;
+					height: 26px;
+					background: url(../img/common_z.png);
+					background-position: 0 51px;
+					display: inline-block;
+					margin-right: 4px;
+			       margin-top:4px;
+				}
+				.er12{
+					width: 20px;
+					height: 26px;
+					background: url(../img/common_z.png);
+					background-position: 464px 236px;
+					display: inline-block;
+					margin-right: 4px;
+				    margin-top:8px;
+				}
+				.er13{
+					width: 20px;
+					height: 26px;
+					background: url(../img/common_z.png);
+					background-position: 122px 197px;
+					display: inline-block;
+				    margin-top:8px;
+					margin-right: 4px;
+				}
+			}
+		
+			
+		}   
+		
+	span{
+		    float: left;
+			}
+			.er2{
+				font-size: 12px;
+				float: right;
+				color: #727272;
+				
+			a{
+				float: left;
+				text-decoration: none;
+				font-size: 12px;	
+				color:#737373 ;
+				height: 36px;
+				padding-left : 8px;
+				padding-right : 8px;
+				
+				.er21{	
+					width: 0;
+					border: 6px solid transparent;
+					border-top: 6px solid #d9d9d9;
+					margin-top: 14px;
+					display: block;
+				    float: right;
+				}
+				.er22{
+					height: 32px;
+					width: 24px;
+					background: url(../img/common_z.png);
+					background-position: 78px 86px;
+					display: inline-block;
+					vertical-align: middle;
+				
+				}
+				
+	     	}
+		  .er221:hover{
+			  background:#f2f2f2;
+		  }
+		}
+		a:hover {
+			   color: #ff6a00;
+			   background: #fff;
+			   height: 36px;
+	    }
+		
+	}
+	.er3{
+		height: 118px;
+		img{
+			margin: 40px 0 0 20px;
+			float: left;
+		}
+		nav{
+			float: left;
+			margin-left: 276px;
+			margin-top: 40px;
+			.er31{
+				border: 1px solid #ff6a00;
+				height: 30px;
+				width: 238px;
+				color: #aeaeae;
+				font-size: 16px;
+			}
+			.er32{
+				width: 80px;
+				height: 32px;
+				margin-left: -6px;
+				background: #ff6a00;
+				border: 2px solid #ff6a00;
+				padding-top:2px ;
+			}
+			p a{
+				color: #aeaeae;
+				font-size: 12px;
+			}
+			a:hover{
+				color: #ff6a00;
+			}
+			p span{
+				font-size:12px ;
+				margin-left: 4px;
+				color: #e0d9e0;
+			}
+		}
+		.er33{
+			float: right;
+			margin-top : 40px;
+			height: 40px;
+			font-size: 14px;
+			color: #737373;
+			line-height: 40px;
+			.er34{
+				width: 28px;
+				height: 28px;
+				display: inline-block;
+				background: url(../img/common_z.png) 38px 324px;
+			    vertical-align: middle;
+			}
+			.er35{
+				width: 28px;
+				height: 28px;
+				display: inline-block;
+				background: url(../img/common_z.png) 125px 238px;
+				vertical-align: middle;			
+			}
+			a{
+				color: #737373;
+				font-size: 14px;
+			}
+			a:hover{
+				color: #ff6a00;
+				text-decoration: underline;
+			}
+		}
+	}
+	
+	.er4{
+		height: 37px;
+		line-height: 37px;
+		.er44{
+			display:  inline-block;
+			width: 212px;
+			margin-left: 20px;
+			margin-right: 24px;
+			background: #ff6a00;
+			height: 37px;
+			color: #fff;
+			padding-left: 18px;
+		}
+		a{
+			color: #4d4d4d;
+			margin-right: 50px;
+		}
+		.er41{
+			color: #ff6a00;
+		}
+		a:hover{
+			color: #ff6a00;
+		}
+	}
+	
+}			
+#san{
+	height: 440px;
+	background: #00f;
+	position: relative;
+	border-top: 3px solid #ff6a00;
+	ul li{
+		position: absolute;
+		left: 0;
+		width: 100%;
+		img{
+			width: 1122px;
+		}
+	}
+	
+	#yi{
+		height: 437px;
+		width: 230px;
+		border-bottom: 3px solid #ff6a00;
+		position: absolute;
+		background: #fff;
+		left: 20px;
+		z-index : 3000; 
+		.si{
+			width: 204px;
+			color: #ff6a00;
+			font-size: 14px;
+			margin: 0 14px;
+			border-bottom: 1px solid #e9e9e9;
+			p{
+				margin: 6px 0 3px 0;
+			}
+			
+			.si1{
+					margin-bottom: 10px;
+				}
+				
+		}
+	}
+	.si4{
+		margin: 0 14px;
+		width: 204px;
+		border-bottom: 1px solid #e9e9e9;
+	}
+	.si5{
+		margin: 0 14px;
+		width: 204px;
+		a{
+			color: #ff6a00;
+			font-size: 14px;
+			margin-right: 0px;
+			margin-top: 10px;
+			
+		}
+		.si6{
+			margin-left: 8px;
+		}
+	}
+	.si2{
+		float: left;
+		width: 188px;
+		margin: 6px 0 2px 0;
+		color:  #ff6a00;
+		font-size: 14px;
+	}
+	.si3{
+		float: right;
+		margin: 4px 0 ;
+		font-size: 20px;
+		color: #737373;
+	}
+   a{
+		display: inline-block;
+		margin-right: 14px;
+		font-size: 12px;
+		margin-bottom: 6px;
+		color: #737373;		
+	}
+	.si41{
+		height: 140px;
+		width: 212px;
+		position: absolute;
+		right: 0;
+		top: 10px;
+		z-index: 3000;
+	}
+	.si42{
+		height: 140px;
+		width: 212px;
+		border-top: 2px solid #e4e4e4;
+		position: absolute;
+		right: 0;
+		top: 150px;
+		z-index: 3000;
+	}
+	.si43{
+		height: 140px;
+		width: 212px;
+		border-top: 2px solid #e4e4e4;
+		position: absolute;
+		right: 0;
+		top: 290px;
+		z-index: 3000;
+	}
+	.er42{
+		height: 36px;
+		width: 80px;
+		position: absolute;
+		top: 50px;
+		left: 18px;
+	}
+}
+#wu{
+	height: 120px;
+	.wu1{
+		height: 38px;
+		padding: 30px 0 30px 30px;
+		float : left;
+		width : 222px;
+		.wu2{
+			height: 38px;
+			width: 38px;
+			float: left;
+			background: url(../img/common_z.png) 176px 268px;
+			margin-right: 10px;
+		}
+		.wu3{
+			height: 38px;
+			width: 38px;
+			float: left;
+			background: url(../img/common_z.png) 175px 316px;
+			margin-right: 10px;
+		}
+		.wu4{
+			height: 38px;
+			width: 38px;
+			float: left;
+			background: url(../img/common_z.png) 175px 367px;
+			margin-right: 10px;
+		}
+		.wu5{
+			height: 38px;
+			width: 38px;
+			float: left;
+			background: url(../img/common_z.png) 269px 183px;
+			margin-right: 10px;
+		}
+		.wu6{
+			height: 38px;
+			width: 38px;
+			float: left;
+			background: url(../img/common_z.png) 317px 184px;
+			margin-right: 10px;
+		}
+		span{
+			font-size: 12px;
+			color: #999999;
+			float: left;
+		}
+		
+	}
+}
+#liu{
+	width: 1222px;
+	height: 200px;
+	margin: 0 20px;
+	background: #00f;
+	li{
+		float: left;
+		height: 200px;
+		width: 242px;
+		img{
+			height: 200px;
+			border: 1px solid #e5e5e5;
+		}
+	}
+}
