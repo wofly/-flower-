@@ -416,11 +416,11 @@ header {
       line-height: 64px; }
   #ba ul {
     float: left;
-    width: 962px;
+    width: 960px;
     height: 633px;
     border-bottom: 1px solid #e5e5e5; }
     #ba ul li {
-      height: 319px;
+      height: 316px;
       width: 239px;
       border-top: 1px solid #e5e5e5;
       border-right: 1px solid #e5e5e5;
@@ -440,7 +440,7 @@ header {
       #ba ul li a:hover p {
         color: #ff6a00; }
   #ba .ba4 {
-    height: 308px;
+    height: 316px;
     width: 100%;
     border: 1px solid #e5e5e5;
     border-top: 0; }
@@ -463,3 +463,245 @@ header {
         text-decoration: underline; }
     #ba .ba4 .ba5 {
       border: 0; }
+
+#jiu {
+  height: 290px;
+  width: 1202px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 14px; }
+  #jiu .jiu1 {
+    width: 242px;
+    background: #f2f2f2;
+    float: left; }
+  #jiu .jiu2 {
+    width: 472px;
+    background: #f2f2f2;
+    float: left;
+    margin: 0 16px; }
+  #jiu .jiu11 {
+    height: 32px;
+    background: #898989;
+    line-height: 32px;
+    margin-bottom: 20px; }
+    #jiu .jiu11 h4 {
+      float: left;
+      color: #fff;
+      margin-left: 10px; }
+    #jiu .jiu11 a {
+      float: right;
+      font-size: 18px;
+      color: #898989;
+      background: #fff;
+      height: 16px;
+      width: 16px;
+      border-radius: 50%;
+      line-height: 16px;
+      text-align: center;
+      margin: 8px 10px 0 0; }
+    #jiu .jiu11 a:hover {
+      text-decoration: none;
+      color: #898989; }
+  #jiu ul {
+    height: 238px; }
+    #jiu ul li {
+      font-size: 12px;
+      list-style: disc;
+      margin-left: 20px;
+      color: #838383;
+      line-height: 36px; }
+  #jiu ol {
+    height: 228px;
+    width: 440px;
+    margin: 10px 16px; }
+    #jiu ol li {
+      height: 54px;
+      padding: 12px 0 16px 0;
+      border-bottom: 1px solid #e5e5e5; }
+      #jiu ol li a {
+        float: left;
+        color: #838383;
+        font-size: 14px; }
+        #jiu ol li a img {
+          height: 28px;
+          width: 28px;
+          padding: 4px;
+          border: 1px solid #e1e1e1;
+          border-radius: 4px; }
+      #jiu ol li .jiu3 {
+        font-size: 10px;
+        color: #737373;
+        font-size: 10px;
+        float: left;
+        width: 360px;
+        line-height: 24px;
+        margin-left: 32px;
+        color: #000; }
+        #jiu ol li .jiu3 b {
+          height: 14px;
+          width: 70px;
+          background: url(../img/common_z.png) 421px 16px;
+          display: inline-block; }
+        #jiu ol li .jiu3 span {
+          float: right;
+          color: #838383; }
+    #jiu ol .jiu31 {
+      border: none; }
+  #jiu .jiu4 {
+    background: #f2f2f2;
+    width: 454px;
+    float: left; }
+    #jiu .jiu4 ul {
+      margin-left: 4px;
+      width: 222px;
+      float: left; }
+    #jiu .jiu4 .jiu41 li {
+      border-right: 1px solid #e5e5e5; }
+  #jiu a:hover {
+    text-decoration: underline;
+    color: #ff6a00; }
+
+#shi {
+  width: 1202px;
+  height: 170px;
+  border: 1px solid #e5e5e5;
+  margin: 0 auto; }
+  #shi .shi1 {
+    height: 120px;
+    width: 258px;
+    margin: 24px 0 24px 30px;
+    float: left; }
+    #shi .shi1 nav {
+      float: right;
+      color: #ffa600; }
+      #shi .shi1 nav p {
+        font-size: 12px;
+        color: #737373;
+        margin-top: 10px;
+        margin-bottom: 14px; }
+      #shi .shi1 nav b {
+        width: 54px;
+        height: 54px;
+        display: inline-block;
+        background: url(../img/common_z.png) 288px 370px; }
+      #shi .shi1 nav span {
+        width: 54px;
+        height: 54px;
+        display: inline-block;
+        background: url(../img/common_z.png) 361px 297px; }
+  #shi .shi2 {
+    float: left;
+    margin: 14px 40px; }
+  #shi .shi3 {
+    width: 326px; }
+    #shi .shi3 p {
+      font-size: 14px; }
+    #shi .shi3 a b {
+      width: 54px;
+      height: 54px;
+      display: inline-block;
+      background: url(../img/common_z.png) 288px 313px; }
+
+#shiy {
+  width: 1202px;
+  height: 84px;
+  background: #ff6600;
+  margin: 0 auto;
+  margin-top: 14px; }
+  #shiy li {
+    padding: 0 18px;
+    margin: 20px 0;
+    border-right: 1px solid #c15900;
+    line-height: 40px;
+    float: left; }
+    #shiy li a {
+      color: #fff;
+      font-size: 14px; }
+    #shiy li span {
+      height: 40px;
+      width: 40px;
+      display: inline-block;
+      background: url(../img/common_z.png) 370px 185px;
+      vertical-align: middle; }
+    #shiy li .shiy1 {
+      background: url(../img/common_z.png) 421px 182px; }
+    #shiy li .shiy2 {
+      background: url(../img/common_z.png) 226px 268px; }
+    #shiy li .shiy3 {
+      background: url(../img/common_z.png) 226px 316px; }
+    #shiy li .shiy4 {
+      background: url(../img/common_z.png) 224px 366px; }
+    #shiy li .shiy5 {
+      background: url(../img/common_z.png) 314px 234px; }
+    #shiy li .shiy6 {
+      background: url(../img/common_z.png) 367px 234px; }
+    #shiy li .shiy7 {
+      background: url(../img/common_z.png) 415px 234px; }
+  #shiy .shiy8 {
+    border: none; }
+
+#shie {
+  height: 74px;
+  width: 1202px;
+  margin: 0 auto; }
+  #shie li {
+    float: left;
+    border-right: 1px solid #d9d9d9;
+    margin: 30px 0; }
+    #shie li a {
+      color: #737373;
+      font-size: 12px;
+      margin: 0 38px; }
+    #shie li a:hover {
+      color: #ff6a00;
+      text-decoration: underline; }
+  #shie .shie1 {
+    border: none; }
+
+#shis {
+  height: 208px;
+  width: 1202px;
+  padding: 0 30px;
+  background: #f2f2f2;
+  border-top: #dcdcdc;
+  border-bottom: #dcdcdc; }
+  #shis div {
+    width: 299px;
+    height: 150px;
+    border-right: 1px solid #d9d9d9;
+    margin-top: 30px;
+    float: left; }
+    #shis div h4 {
+      margin-bottom: 16px;
+      font-size: 14px; }
+    #shis div a {
+      font-size: 12px;
+      margin-right: 38px;
+      color: #737373;
+      line-height: 24px; }
+  #shis .shis1 {
+    width: 255px;
+    margin-left: 44px; }
+  #shis .shis2 a {
+    line-height: 0px;
+    font-size: 10px; }
+  #shis .shis2 h4 {
+    font-size: 14px;
+    color: #737373;
+    margin-bottom: 8px; }
+  #shis .shis3 {
+    border: none; }
+    #shis .shis3 p {
+      color: #737373;
+      font-size: 12px;
+      line-height: 24px; }
+  #shis a:hover {
+    color: #ffa600;
+    text-decoration: underline; }
+
+#shisi {
+  height: 66px;
+  width: 1030px;
+  margin: 28px auto; }
+  #shisi a {
+    margin-right: 10px; }
