@@ -55,6 +55,21 @@ header {
           display: inline-block;
           margin-top: 8px;
           margin-right: 4px; }
+        header .er .er1 a .w33 {
+          display: none;
+          font-size: 12px;
+          position: absolute;
+          border: 1px solid #737373;
+          text-align: center;
+          background: #fff;
+          z-index: 5000;
+          line-height: 20px;
+          color: #737373; }
+          header .er .er1 a .w33 img {
+            margin: 10px; }
+      header .er .er1 a:hover .w33 {
+        display: block;
+        margin: 0; }
     header .er span {
       float: left; }
     header .er .er2 {
@@ -175,7 +190,8 @@ header {
   border-top: 3px solid #ff6a00; }
   #san ul li {
     position: absolute;
-    left: 0; }
+    left: 0;
+    top: 0; }
     #san ul li img {
       width: 1232px;
       height: 440px; }
@@ -197,13 +213,67 @@ header {
         margin: 6px 0 3px 0; }
       #san #yi .si .si1 {
         margin-bottom: 10px; }
+    #san #yi .si10 {
+      border: none; }
+  #san #ers {
+    width: 560px;
+    height: 210px;
+    padding: 0 10px;
+    border-left: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    position: absolute;
+    top: -40px;
+    background: #fff;
+    left: 229px;
+    z-index: 300;
+    font-size: 14px;
+    display: none; }
+    #san #ers p {
+      margin: 10px 0;
+      color: #5e5e5e; }
+    #san #ers a {
+      display: inline-block;
+      border: 1px solid #e9e9e9;
+      text-align: center;
+      padding-bottom: 4px;
+      color: #5e5e5e;
+      float: left;
+      border-right: none;
+      margin: 0; }
+    #san #ers .ers1 {
+      border-right: 1px solid #e9e9e9; }
+    #san #ers a:hover {
+      color: #ff6a00;
+      text-decoration: underline; }
   #san .si4 {
     margin: 0 14px;
     width: 204px;
-    border-bottom: 1px solid #e9e9e9; }
+    border-bottom: 1px solid #e9e9e9;
+    border-top: 1px solid #e9e9e9;
+    z-index: 309;
+    position: relative; }
+  #san .si7 {
+    width: 208px;
+    height: 28px; }
+  #san .si4:hover {
+    margin: 0;
+    padding: 0 14px;
+    width: 199px;
+    border-right: 5px solid #fff;
+    box-shadow: 0px -1px 3px rgba(224, 217, 224, 0.4); }
+    #san .si4:hover .si7 {
+      border-bottom: 1px solid rgba(224, 217, 224, 0.1);
+      width: 208px;
+      height: 27px;
+      margin-left: -14px;
+      padding: 0 8px 0 14px; }
+    #san .si4:hover #ers {
+      display: block;
+      box-shadow: -1px 2px 3px rgba(224, 217, 224, 0.4); }
   #san .si5 {
-    margin: 0 14px;
-    width: 204px; }
+    margin: 1px 14px;
+    width: 204px;
+    height: 36px; }
     #san .si5 a {
       color: #ff6a00;
       font-size: 14px;
@@ -211,6 +281,59 @@ header {
       margin-top: 10px; }
     #san .si5 .si6 {
       margin-left: 8px; }
+  #san #ery {
+    height: 439px;
+    width: 680px;
+    background: #fff;
+    position: absolute;
+    left: 230px;
+    top: 0px;
+    padding: 0 10px;
+    font-size: 14px;
+    border-left: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    display: none; }
+    #san #ery p {
+      margin: 10px 0;
+      color: #5e5e5e; }
+    #san #ery .ers3 {
+      height: 200px; }
+      #san #ery .ers3 a {
+        display: inline-block;
+        border: 1px solid #e9e9e9;
+        text-align: center;
+        padding-bottom: 4px;
+        color: #5e5e5e;
+        float: left;
+        border-right: none;
+        padding: 4px 14px;
+        width: 66px;
+        margin-bottom: 10px; }
+      #san #ery .ers3 .ers1 {
+        border-right: 1px solid #e9e9e9; }
+      #san #ery .ers3 .ers2 {
+        border-right: 1px solid #e9e9e9; }
+    #san #ery .ers5 {
+      font-size: 18px;
+      height: 24px;
+      margin-top: 10px; }
+    #san #ery a {
+      font-size: 12px;
+      color: #737373;
+      margin-right: 4px; }
+    #san #ery a:hover {
+      color: #ff6a00;
+      text-decoration: underline; }
+  #san .si5:hover {
+    margin: 0;
+    padding: 0 14px;
+    border-bottom: 1px solid rgba(224, 217, 224, 0.1);
+    border-top: 1px solid  #e9e9e9;
+    height: 34px;
+    box-shadow: 0px -1px 3px rgba(224, 217, 224, 0.4); }
+    #san .si5:hover #ery {
+      display: block;
+      box-shadow: -1px 2px 3px rgba(224, 217, 224, 0.4); }
   #san .si2 {
     float: left;
     width: 188px;
@@ -232,7 +355,7 @@ header {
     height: 140px;
     width: 212px;
     position: absolute;
-    right: 30px;
+    left: 986px;
     top: 10px;
     z-index: 3000; }
   #san .si42 {
@@ -240,7 +363,7 @@ header {
     width: 212px;
     border-top: 2px solid #e4e4e4;
     position: absolute;
-    right: 30px;
+    left: 986px;
     top: 150px;
     z-index: 3000; }
   #san .si43 {
@@ -248,7 +371,7 @@ header {
     width: 212px;
     border-top: 2px solid #e4e4e4;
     position: absolute;
-    right: 30px;
+    left: 986px;
     top: 290px;
     z-index: 3000; }
   #san .er42 {
@@ -257,6 +380,9 @@ header {
     position: absolute;
     top: 50px;
     left: 18px; }
+  #san a:hover {
+    color: #ff6a00;
+    text-decoration: underline; }
 
 #wu {
   height: 120px; }
@@ -705,3 +831,163 @@ header {
   margin: 28px auto; }
   #shisi a {
     margin-right: 10px; }
+
+#shiw {
+  width: 866px;
+  height: 20px;
+  margin: auto;
+  font-size: 12px;
+  color: #737373;
+  line-height: 20px; }
+  #shiw img {
+    vertical-align: middle; }
+  #shiw a {
+    color: #737373; }
+  #shiw span {
+    color: #e0d9e0; }
+  #shiw a:hover {
+    color: #ff6a00;
+    text-decoration: underline; }
+
+#shil {
+  width: 620px;
+  height: 18px;
+  margin: 16px auto;
+  font-size: 12px;
+  margin-bottom: 30px;
+  color: #737373; }
+  #shil a {
+    color: #737373; }
+  #shil a:hover {
+    color: #ff6a00;
+    text-decoration: underline; }
+
+#shiq {
+  height: 64px;
+  width: 1202px;
+  margin: 0 auto;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 64px;
+  color: #737373; }
+  #shiq b {
+    margin-right: 10px; }
+  #shiq a {
+    color: #737373;
+    margin: 0 4px; }
+  #shiq a:hover {
+    color: #ff6a00;
+    text-decoration: underline; }
+
+#shib {
+  height: 100%;
+  width: 30px;
+  background: #595656;
+  position: fixed;
+  right: 0px;
+  top: 0; }
+  #shib b {
+    display: inline-block;
+    width: 30px;
+    height: 34px;
+    background: url(../img/ibar_sprites.png) -3px -3px;
+    margin-top: 150px; }
+  #shib b:hover {
+    background: #ff6a00 url(../img/ibar_sprites.png) -3px -3px; }
+  #shib .shib1 {
+    height: 130px;
+    width: 24px;
+    border-top: 1px solid #e0d9e0;
+    border-bottom: 1px solid #e0d9e0;
+    padding: 0 4px; }
+    #shib .shib1 p {
+      width: 16px;
+      margin-left: 6px;
+      font-size: 12px;
+      margin-top: 6px;
+      color: #fff; }
+    #shib .shib1 b {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background: url(../img/ibar_sprites.png) -6px -36px;
+      margin: 0; }
+    #shib .shib1 span {
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background: #ff6a00;
+      display: inline-block;
+      margin: 10px 2px;
+      font-size: 12px;
+      text-align: center;
+      line-height: 18px; }
+  #shib span {
+    display: inline-block;
+    width: 30px;
+    height: 32px;
+    background: url(../img/ibar_sprites.png) -3px -72px;
+    margin-top: 10px; }
+  #shib .shib3 {
+    background: url(../img/ibar_sprites.png) -3px -110px; }
+  #shib .shib4 {
+    background: url(../img/ibar_sprites.png) -3px -146px; }
+  #shib .shib5 {
+    background: url(../img/ibar_sprites.png) -3px -182px;
+    margin-bottom: 16px; }
+  #shib .shib6 {
+    background: url(../img/ibar_sprites.png) -3px -362px; }
+  #shib .shib7 {
+    background: url(../img/ibar_sprites.png) -3px -218px; }
+  #shib .shib8 {
+    background: url(../img/ibar_sprites.png) -3px 142px;
+    margin: 0;
+    display: none; }
+  #shib span:hover {
+    background: #ff6a00 url(../img/ibar_sprites.png) -3px -72px; }
+  #shib .shib3:hover {
+    background: #ff6a00 url(../img/ibar_sprites.png) -3px -110px; }
+  #shib .shib4:hover {
+    background: #ff6a00 url(../img/ibar_sprites.png) -3px -146px; }
+  #shib .shib5:hover {
+    background: #ff6a00 url(../img/ibar_sprites.png) -3px -182px; }
+  #shib .shib6:hover {
+    background: #ff6a00 url(../img/ibar_sprites.png) -3px -362px; }
+  #shib .shib7:hover {
+    background: #ff6a00 url(../img/ibar_sprites.png) -3px -218px; }
+  #shib .shib8:hover {
+    background: #ff6a00 url(../img/ibar_sprites.png) -3px 142px; }
+  #shib .shib1:hover {
+    background: #ff6a00; }
+    #shib .shib1:hover span {
+      background: #fff;
+      color: #ff6a00; }
+
+#shij {
+  height: 40px;
+  width: 128px;
+  background: #ff6a00;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 60px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  z-index: 3003; }
+  #shij p {
+    display: inline-block;
+    width: 39px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    height: 40px;
+    vertical-align: middle; }
+    #shij p b {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      background: url(../img/icon-mq.png) 1px 0px;
+      margin-right: 10px; }
