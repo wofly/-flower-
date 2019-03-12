@@ -102,7 +102,6 @@ header{
 				height: 36px;
 				padding-left : 8px;
 				padding-right : 8px;
-				
 				.er21{	
 					width: 0;
 					border: 6px solid transparent;
@@ -122,16 +121,73 @@ header{
 				}
 				
 	     	}
+			
 		  .er221:hover{
 			  background:#f2f2f2;
 		  }
+		  #er2222{
+		  	//position: relative;
+			float: left;
+		  }
+		  .er222{
+		  	position: absolute;
+		  	background: #fff;
+		  	width: 62px;
+		  	height: 130px;
+		  	left: 840px;
+		  	top: 110px;
+		  	border: 1px solid #e7e7e7;
+		  	border-top : none;
+		  	padding-left: 14px;
+		  	display: none;
+		  	a{
+		  		height: 24px;
+		  		padding: 0;
+		  		
+		  	}
+		  	a:hover{
+		  		text-decoration: underline;
+		  	}
+		  }
+		  #er2222:hover{
+		  	.er222{
+		  		display: block;
+		  	}
+		  }
+		  
 		}
 		a:hover {
 			   color: #ff6a00;
 			   background: #fff;
 			   height: 36px;
+			   .er21{
+				   width: 0;
+				   border: 6px solid transparent;
+				   border-top: 6px solid #ff6a00;
+				   margin-top: 14px;
+			   }
 	    }
-		
+		.er223{
+			float: left;
+			position: relative;
+			div{
+				height: 120px;
+				width: 300px;
+				border: 1px solid #e7e7e7;
+				position: absolute;
+				top: 36px;
+				left: -196px;
+				text-align: center;
+				line-height: 120px;
+				background: #fff;
+				display: none;
+			}
+		}
+	}
+	.er223:hover{
+		div{
+			display: block;
+		}
 	}
 	.er3{
 		height: 118px;
@@ -236,16 +292,50 @@ header{
 	position: relative;
 	width: 1232px;
 	border-top: 3px solid #ff6a00;
-	ul li{
+	ol li{
 		position: absolute;
 		left: 0;
 		top: 0;
+		z-index: 0;
 		img{
 			width: 1232px;
 			height: 440px;
 		}
 	}
-	
+	.san1{
+		width: 50px;
+		height: 50px;
+		background:  url(../img/common_z.png) 420px 295px;
+		position: absolute;
+		left: 260px;
+		top: 200px;
+		z-index: 4000;
+	}
+	.san2{
+		width: 50px;
+		height: 50px;
+		background:  url(../img/common_z.png) 347px 369px;
+		position: absolute;
+		left: 950px;
+		top: 200px;
+		z-index: 4000;
+	}
+	ul {
+		width: 210px;
+		height: 20px;
+		//background: #0ff;
+		position: absolute;
+		left: 550px;
+		top: 400px;
+		z-index :4000;
+	li{
+		height: 16px;
+		width: 14px;
+		background: url(../img/common_z.png) 340px 17px;
+		float: left;
+		margin-right: 20px;
+	}
+	}
 	#yi{
 		height: 437px;
 		width: 230px;
@@ -446,7 +536,7 @@ header{
 		height: 140px;
 		width: 212px;
 		position: absolute;
-		left: 986px;
+		left: 1000px;
 		top: 10px;
 		z-index: 3000;
 	}
@@ -455,7 +545,7 @@ header{
 		width: 212px;
 		border-top: 2px solid #e4e4e4;
 		position: absolute;
-		left: 986px;
+		left: 1000px;
 		top: 150px;
 		z-index: 3000;
 	}
@@ -464,7 +554,7 @@ header{
 		width: 212px;
 		border-top: 2px solid #e4e4e4;
 		position: absolute;
-		left: 986px;
+		left: 1000px;
 		top: 290px;
 		z-index: 3000;
 	}
@@ -1101,6 +1191,7 @@ header{
 	position: fixed;
 	right: 0px;
 	top: 0;
+	z-index: 4000;
 	b{
 		display: inline-block;
 		width: 30px;
@@ -1143,6 +1234,91 @@ header{
 			line-height: 18px;
 		}
 	}
+	.shib11{
+		//position: relative;
+		div{
+			width: 300px;
+			height: 200px;
+			background: #fff;
+			position: absolute;
+			border: 1px solid #e7e7e7;
+			left: -300px;
+			top: 150px;
+			text-align: center;
+			font-size: 14px;
+			color: #e0d9e0;
+			line-height: 24px;
+			display: none;
+			img{
+				border-radius: 50%;
+				margin-top: 20px;
+			}
+			a{
+				color: #ff6a00;
+			}
+			a:hover{
+				text-decoration: underline;
+			}
+			nav{
+				height: 46px;
+				background: #e0d9e0;
+				margin-top: 30px;
+				line-height: 46px;
+				//vertical-align: middle;
+				b{
+					width: 30px;
+					height: 30px;
+					display: inline-block;
+					background: url(../img/common_z.png)57px 173px;
+					margin: 0;
+					margin-bottom: -4px;
+				}
+				a{
+					color: #000;
+				}
+				a:hover{
+					text-decoration: none;
+					color: #ff6a00;
+				}
+			}
+			
+		}
+	}
+	.shib11:hover{
+		div{
+			display: block;
+		}
+	}
+	.shib12{
+		div{
+			width: 300px;
+			height: 200px;
+			background: #fff;
+			position: absolute;
+			border: 1px solid #e7e7e7;
+			left: -300px;
+			top: 360px;
+			text-align: center;
+			font-size: 14px;
+			color: #666;
+			line-height: 24px;
+			display: none;
+			img{
+				width: 120px;
+			}
+			h4{
+				display: inline-block;
+				text-align: center;
+				margin-top: 30px;
+			}
+		}
+		
+	}
+	.shib12:hover{
+		div{
+			display: block;
+		}
+	}
 	span{
 		display: inline-block;
 		width: 30px;
@@ -1183,10 +1359,10 @@ header{
 	.shib5:hover{
 		background:#ff6a00 url(../img/ibar_sprites.png) -3px -182px;
 	}
-	.shib6:hover{
+	.shib7:hover{
 		background:#ff6a00 url(../img/ibar_sprites.png) -3px -362px;
 	}
-	.shib7:hover{
+	.shib6:hover{
 		background:#ff6a00 url(../img/ibar_sprites.png) -3px -218px;
 	}
 	.shib8:hover{
@@ -1231,5 +1407,41 @@ header{
 	}
 	
 }
-
-  
+.s33{
+	width: 108px;
+	height: 30px;
+	background: #F0F0F0;
+	position: fixed;
+	left: 1080px;
+	bottom: 36px;
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+	text-align: center;
+	opacity: 0;
+	//display: none;
+	P{
+		width: 0;
+		border: 6px solid transparent;
+		border-left: 6px solid #f0f0f0;
+		float: right;
+		position: relative;
+		left: 12px;
+		top: 8px;
+	}
+}
+.sn1{
+	bottom: 280px;
+}
+.sn2{
+	bottom: 230px;
+}
+.sn3{
+	bottom: 188px;
+}
+.sn4{
+	bottom: 140px;
+}
+.sn5{
+	bottom: 36px;
+}

@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+li {
+  list-style: none; }
+
+header {
+  height: 191px;
+  width: 1262px; }
+  header .er {
+    height: 36px;
+    background: #f2f2f2;
+    line-height: 36px; }
+    header .er .er1 {
+      margin-left: 42px;
+      float: left; }
+      header .er .er1 a {
+        float: left;
+        text-decoration: none;
+        margin-right: 20px;
+        font-size: 12px;
+        color: #737373;
+        padding-left: 6px;
+        padding-right: 6px; }
+        header .er .er1 a .er11 {
+          width: 20px;
+          height: 26px;
+          background: url(../img/common_z.png);
+          background-position: 0 51px;
+          display: inline-block;
+          margin-right: 4px;
+          margin-top: 4px; }
+        header .er .er1 a .er12 {
+          width: 20px;
+          height: 26px;
+          background: url(../img/common_z.png);
+          background-position: 464px 236px;
+          display: inline-block;
+          margin-right: 4px;
+          margin-top: 8px; }
+        header .er .er1 a .er13 {
+          width: 20px;
+          height: 26px;
+          background: url(../img/common_z.png);
+          background-position: 122px 197px;
+          display: inline-block;
+          margin-top: 8px;
+          margin-right: 4px; }
+        header .er .er1 a .w33 {
+          display: none;
+          font-size: 12px;
+          position: absolute;
+          border: 1px solid #737373;
+          text-align: center;
+          background: #fff;
+          z-index: 5000;
+          line-height: 20px;
+          color: #737373; }
+          header .er .er1 a .w33 img {
+            margin: 10px; }
+      header .er .er1 a:hover .w33 {
+        display: block;
+        margin: 0; }
+    header .er span {
+      float: left; }
+    header .er .er2 {
+      font-size: 12px;
+      float: right;
+      color: #727272;
+      margin-right: 30px; }
+      header .er .er2 a {
+        float: left;
+        text-decoration: none;
+        font-size: 12px;
+        color: #737373;
+        height: 36px;
+        padding-left: 8px;
+        padding-right: 8px; }
+        header .er .er2 a .er21 {
+          width: 0;
+          border: 6px solid transparent;
+          border-top: 6px solid #d9d9d9;
+          margin-top: 14px;
+          display: block;
+          float: right; }
+        header .er .er2 a .er22 {
+          height: 32px;
+          width: 24px;
+          background: url(../img/common_z.png);
+          background-position: 78px 86px;
+          display: inline-block;
+          vertical-align: middle; }
+      header .er .er2 .er221:hover {
+        background: #f2f2f2; }
+      header .er .er2 #er2222 {
+        float: left; }
+      header .er .er2 .er222 {
+        position: absolute;
+        background: #fff;
+        width: 62px;
+        height: 130px;
+        left: 840px;
+        top: 36px;
+        border: 1px solid #e7e7e7;
+        border-top: none;
+        padding-left: 14px;
+        display: none; }
+        header .er .er2 .er222 a {
+          height: 24px;
+          padding: 0; }
+        header .er .er2 .er222 a:hover {
+          text-decoration: underline; }
+      header .er .er2 #er2222:hover .er222 {
+        display: block; }
+    header .er a:hover {
+      color: #ff6a00;
+      background: #fff;
+      height: 36px; }
+      header .er a:hover .er21 {
+        width: 0;
+        border: 6px solid transparent;
+        border-top: 6px solid #ff6a00;
+        margin-top: 14px; }
+    header .er .er223 {
+      float: left;
+      position: relative; }
+      header .er .er223 div {
+        height: 120px;
+        width: 300px;
+        border: 1px solid #e7e7e7;
+        position: absolute;
+        top: 36px;
+        left: -196px;
+        text-align: center;
+        line-height: 120px;
+        background: #fff;
+        display: none; }
+  header .er223:hover div {
+    display: block; }
+  header .er3 {
+    height: 118px; }
+    header .er3 img {
+      margin: 40px 0 0 20px;
+      float: left; }
+    header .er3 nav {
+      float: left;
+      margin-left: 276px;
+      margin-top: 40px; }
+      header .er3 nav .er31 {
+        border: 1px solid #ff6a00;
+        height: 30px;
+        width: 238px;
+        color: #aeaeae;
+        font-size: 16px; }
+      header .er3 nav .er32 {
+        width: 80px;
+        height: 32px;
+        margin-left: -6px;
+        background: #ff6a00;
+        border: 2px solid #ff6a00;
+        padding-top: 2px; }
+      header .er3 nav p a {
+        color: #aeaeae;
+        font-size: 12px; }
+      header .er3 nav a:hover {
+        color: #ff6a00; }
+      header .er3 nav p span {
+        font-size: 12px;
+        margin-left: 4px;
+        color: #e0d9e0; }
+    header .er3 .er33 {
+      float: right;
+      margin-top: 40px;
+      margin-right: 30px;
+      height: 40px;
+      font-size: 14px;
+      color: #737373;
+      line-height: 40px; }
+      header .er3 .er33 .er34 {
+        width: 28px;
+        height: 28px;
+        display: inline-block;
+        background: url(../img/common_z.png) 38px 324px;
+        vertical-align: middle; }
+      header .er3 .er33 .er35 {
+        width: 28px;
+        height: 28px;
+        display: inline-block;
+        background: url(../img/common_z.png) 125px 238px;
+        vertical-align: middle; }
+      header .er3 .er33 a {
+        color: #737373;
+        font-size: 14px; }
+      header .er3 .er33 a:hover {
+        color: #ff6a00;
+        text-decoration: underline; }
+  header .er4 {
+    height: 37px;
+    line-height: 37px;
+    width: 100%;
+    background: #ff6a00; }
+    header .er4 .er44 {
+      display: inline-block;
+      width: 184px;
+      background: #ff6a00;
+      height: 37px;
+      color: #fff;
+      padding-left: 8px;
+      margin-right: 20px; }
+      header .er4 .er44 img {
+        height: 35px;
+        position: absolute;
+        left: 180px;
+        top: 153px; }
+      header .er4 .er44 .er5 {
+        width: 180px;
+        height: 400px;
+        border: 1px solid red;
+        position: absolute;
+        left: 28px;
+        background: #fff;
+        padding: 0 10px;
+        color: #ff6a00;
+        font-size: 14px;
+        line-height: 26px;
+        display: none; }
+        header .er4 .er44 .er5 div {
+          border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+          header .er4 .er44 .er5 div a {
+            font-size: 10px;
+            display: inline-block;
+            margin: 0 2px;
+            padding: 0;
+            height: 16px;
+            line-height: 16px;
+            color: #7e7e7e; }
+          header .er4 .er44 .er5 div a:hover {
+            background: #fff;
+            text-decoration: underline;
+            color: #ff6a00; }
+    header .er4 .er44:hover {
+      background: #FF6A00; }
+      header .er4 .er44:hover .er5 {
+        display: block; }
+    header .er4 a {
+      color: #fff;
+      margin-right: 50px;
+      display: inline-block;
+      height: 37px;
+      padding: 0 10px;
+      margin: 0 20px; }
+    header .er4 .er41 {
+      color: #ff6a00; }
+    header .er4 a:hover {
+      background: #F19937; }
+
+#yi {
+  height: 40px;
+  margin: 0 auto;
+  width: 1202px;
+  color: #666;
+  line-height: 40px; }
+  #yi a {
+    color: #666; }
+  #yi a:hover {
+    color: #ff6a00;
+    text-decoration: underline; }
+
+#san {
+  height: 820px;
+  width: 178px;
+  border: 1px solid #e7e7e7;
+  margin: 0 30px 0 30px;
+  font-size: 10px;
+  padding: 0 10px;
+  float: left; }
+  #san div {
+    border-bottom: 1px solid #e7e7e7;
+    margin: 10px 0;
+    line-height: 20px; }
+    #san div nav {
+      width: 130px;
+      float: right; }
+      #san div nav a {
+        color: #7e7e7e;
+        float: left;
+        width: 64px; }
+    #san div span {
+      height: 40px;
+      width: 30px;
+      display: inline-block;
+      background: url(../img/common_z.png) 259px 135px;
+      vertical-align: middle;
+      margin-top: 42px; }
+    #san div b {
+      margin-bottom: 42px;
+      display: inline-block;
+      font-size: 14px;
+      color: #ff6a00; }
+  #san .san3 {
+    line-height: 28px; }
+    #san .san3 b {
+      margin-bottom: 24px; }
+    #san .san3 span {
+      margin-top: 24px; }
+  #san .san4 {
+    border: none; }
+    #san .san4 a {
+      width: 42px; }
+  #san .san31 {
+    background: url(../img/common_z.png) 297px 135px; }
+  #san .san32 {
+    background: url(../img/common_z.png) 419px 135px; }
+  #san .san33 {
+    background: url(../img/common_z.png) 339px 135px; }
+  #san .san34 {
+    background: url(../img/common_z.png) 380px 135px; }
+  #san .san35 {
+    background: url(../img/common_z.png) 222px 190px; }
+  #san a:hover {
+    color: #ff6a00;
+    text-decoration: underline; }
+  #san #wu {
+    width: 190px;
+    margin-top: 20px;
+    background: #00f; }
+    #san #wu p {
+      font-size: 16px;
+      color: #666;
+      text-align: center;
+      background: indianred; }
+    #san #wu a img {
+      width: 180px; }
+
+#si {
+  height: 26px;
+  width: 970px;
+  background: #e7e7e7;
+  float: left;
+  margin: 8px 0 12px;
+  line-height: 26px; }
+  #si a {
+    margin-left: 30px;
+    font-size: 14px;
+    color: #666;
+    position: relative; }
+    #si a b {
+      width: 0;
+      border: 6px solid transparent;
+      border-top: 6px solid #666;
+      position: absolute;
+      top: 5px;
+      left: 32px; }
+  #si a:hover {
+    color: #ff6a00; }
+    #si a:hover b {
+      border-top: 6px solid #ff6a00; }
+  #si .si1 {
+    color: #ff6a00; }
+  #si span {
+    margin-left: 576px; }
+  #si img {
+    vertical-align: middle;
+    margin-top: -5px; }

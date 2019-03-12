@@ -101,10 +101,51 @@ header {
           vertical-align: middle; }
       header .er .er2 .er221:hover {
         background: #f2f2f2; }
+      header .er .er2 #er2222 {
+        float: left; }
+      header .er .er2 .er222 {
+        position: absolute;
+        background: #fff;
+        width: 62px;
+        height: 130px;
+        left: 840px;
+        top: 110px;
+        border: 1px solid #e7e7e7;
+        border-top: none;
+        padding-left: 14px;
+        display: none; }
+        header .er .er2 .er222 a {
+          height: 24px;
+          padding: 0; }
+        header .er .er2 .er222 a:hover {
+          text-decoration: underline; }
+      header .er .er2 #er2222:hover .er222 {
+        display: block; }
     header .er a:hover {
       color: #ff6a00;
       background: #fff;
       height: 36px; }
+      header .er a:hover .er21 {
+        width: 0;
+        border: 6px solid transparent;
+        border-top: 6px solid #ff6a00;
+        margin-top: 14px; }
+    header .er .er223 {
+      float: left;
+      position: relative; }
+      header .er .er223 div {
+        height: 120px;
+        width: 300px;
+        border: 1px solid #e7e7e7;
+        position: absolute;
+        top: 36px;
+        left: -196px;
+        text-align: center;
+        line-height: 120px;
+        background: #fff;
+        display: none; }
+  header .er223:hover div {
+    display: block; }
   header .er3 {
     height: 118px; }
     header .er3 img {
@@ -188,13 +229,43 @@ header {
   position: relative;
   width: 1232px;
   border-top: 3px solid #ff6a00; }
-  #san ul li {
+  #san ol li {
     position: absolute;
     left: 0;
-    top: 0; }
-    #san ul li img {
+    top: 0;
+    z-index: 0; }
+    #san ol li img {
       width: 1232px;
       height: 440px; }
+  #san .san1 {
+    width: 50px;
+    height: 50px;
+    background: url(../img/common_z.png) 420px 295px;
+    position: absolute;
+    left: 260px;
+    top: 200px;
+    z-index: 4000; }
+  #san .san2 {
+    width: 50px;
+    height: 50px;
+    background: url(../img/common_z.png) 347px 369px;
+    position: absolute;
+    left: 950px;
+    top: 200px;
+    z-index: 4000; }
+  #san ul {
+    width: 210px;
+    height: 20px;
+    position: absolute;
+    left: 550px;
+    top: 400px;
+    z-index: 4000; }
+    #san ul li {
+      height: 16px;
+      width: 14px;
+      background: url(../img/common_z.png) 340px 17px;
+      float: left;
+      margin-right: 20px; }
   #san #yi {
     height: 437px;
     width: 230px;
@@ -355,7 +426,7 @@ header {
     height: 140px;
     width: 212px;
     position: absolute;
-    left: 986px;
+    left: 1000px;
     top: 10px;
     z-index: 3000; }
   #san .si42 {
@@ -363,7 +434,7 @@ header {
     width: 212px;
     border-top: 2px solid #e4e4e4;
     position: absolute;
-    left: 986px;
+    left: 1000px;
     top: 150px;
     z-index: 3000; }
   #san .si43 {
@@ -371,7 +442,7 @@ header {
     width: 212px;
     border-top: 2px solid #e4e4e4;
     position: absolute;
-    left: 986px;
+    left: 1000px;
     top: 290px;
     z-index: 3000; }
   #san .er42 {
@@ -887,7 +958,8 @@ header {
   background: #595656;
   position: fixed;
   right: 0px;
-  top: 0; }
+  top: 0;
+  z-index: 4000; }
   #shib b {
     display: inline-block;
     width: 30px;
@@ -924,6 +996,66 @@ header {
       font-size: 12px;
       text-align: center;
       line-height: 18px; }
+  #shib .shib11 div {
+    width: 300px;
+    height: 200px;
+    background: #fff;
+    position: absolute;
+    border: 1px solid #e7e7e7;
+    left: -300px;
+    top: 150px;
+    text-align: center;
+    font-size: 14px;
+    color: #e0d9e0;
+    line-height: 24px;
+    display: none; }
+    #shib .shib11 div img {
+      border-radius: 50%;
+      margin-top: 20px; }
+    #shib .shib11 div a {
+      color: #ff6a00; }
+    #shib .shib11 div a:hover {
+      text-decoration: underline; }
+    #shib .shib11 div nav {
+      height: 46px;
+      background: #e0d9e0;
+      margin-top: 30px;
+      line-height: 46px; }
+      #shib .shib11 div nav b {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        background: url(../img/common_z.png) 57px 173px;
+        margin: 0;
+        margin-bottom: -4px; }
+      #shib .shib11 div nav a {
+        color: #000; }
+      #shib .shib11 div nav a:hover {
+        text-decoration: none;
+        color: #ff6a00; }
+  #shib .shib11:hover div {
+    display: block; }
+  #shib .shib12 div {
+    width: 300px;
+    height: 200px;
+    background: #fff;
+    position: absolute;
+    border: 1px solid #e7e7e7;
+    left: -300px;
+    top: 360px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+    display: none; }
+    #shib .shib12 div img {
+      width: 120px; }
+    #shib .shib12 div h4 {
+      display: inline-block;
+      text-align: center;
+      margin-top: 30px; }
+  #shib .shib12:hover div {
+    display: block; }
   #shib span {
     display: inline-block;
     width: 30px;
@@ -953,9 +1085,9 @@ header {
     background: #ff6a00 url(../img/ibar_sprites.png) -3px -146px; }
   #shib .shib5:hover {
     background: #ff6a00 url(../img/ibar_sprites.png) -3px -182px; }
-  #shib .shib6:hover {
-    background: #ff6a00 url(../img/ibar_sprites.png) -3px -362px; }
   #shib .shib7:hover {
+    background: #ff6a00 url(../img/ibar_sprites.png) -3px -362px; }
+  #shib .shib6:hover {
     background: #ff6a00 url(../img/ibar_sprites.png) -3px -218px; }
   #shib .shib8:hover {
     background: #ff6a00 url(../img/ibar_sprites.png) -3px 142px; }
@@ -991,3 +1123,39 @@ header {
       vertical-align: middle;
       background: url(../img/icon-mq.png) 1px 0px;
       margin-right: 10px; }
+
+.s33 {
+  width: 108px;
+  height: 30px;
+  background: #F0F0F0;
+  position: fixed;
+  left: 1080px;
+  bottom: 36px;
+  font-size: 14px;
+  color: #666;
+  line-height: 30px;
+  text-align: center;
+  opacity: 0; }
+  .s33 P {
+    width: 0;
+    border: 6px solid transparent;
+    border-left: 6px solid #f0f0f0;
+    float: right;
+    position: relative;
+    left: 12px;
+    top: 8px; }
+
+.sn1 {
+  bottom: 280px; }
+
+.sn2 {
+  bottom: 230px; }
+
+.sn3 {
+  bottom: 188px; }
+
+.sn4 {
+  bottom: 140px; }
+
+.sn5 {
+  bottom: 36px; }
