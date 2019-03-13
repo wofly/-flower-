@@ -163,11 +163,10 @@ header {
         font-size: 16px; }
       header .er3 nav .er32 {
         width: 80px;
-        height: 32px;
+        height: 33px;
         margin-left: -6px;
         background: #ff6a00;
-        border: 2px solid #ff6a00;
-        padding-top: 2px; }
+        border: none; }
       header .er3 nav p a {
         color: #aeaeae;
         font-size: 12px; }
@@ -1075,8 +1074,7 @@ header {
     background: url(../img/ibar_sprites.png) -3px -218px; }
   #shib .shib8 {
     background: url(../img/ibar_sprites.png) -3px 142px;
-    margin: 0;
-    display: none; }
+    margin: 0; }
   #shib span:hover {
     background: #ff6a00 url(../img/ibar_sprites.png) -3px -72px; }
   #shib .shib3:hover {
@@ -1146,16 +1144,16 @@ header {
     top: 8px; }
 
 .sn1 {
-  bottom: 280px; }
+  bottom: 294px; }
 
 .sn2 {
-  bottom: 230px; }
+  bottom: 250px; }
 
 .sn3 {
-  bottom: 188px; }
+  bottom: 204px; }
 
 .sn4 {
-  bottom: 140px; }
+  bottom: 158px; }
 
 .sn5 {
-  bottom: 36px; }
+  bottom: 46px; }

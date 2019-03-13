@@ -208,11 +208,11 @@ header{
 			}
 			.er32{
 				width: 80px;
-				height: 32px;
+				height: 33px;
 				margin-left: -6px;
 				background: #ff6a00;
-				border: 2px solid #ff6a00;
-				padding-top:2px ;
+				border: none;//2px solid #ff6a00;
+				//padding-top:2px ;
 			}
 			p a{
 				color: #aeaeae;
@@ -1345,7 +1345,8 @@ header{
 	.shib8{
 		background: url(../img/ibar_sprites.png) -3px 142px;
 		margin: 0;
-		display: none;
+		//display: none;
+		//opacity: 0;
 	}
 	span:hover{
 		background: #ff6a00 url(../img/ibar_sprites.png) -3px -72px;
@@ -1431,17 +1432,17 @@ header{
 	}
 }
 .sn1{
-	bottom: 280px;
+	bottom: 294px;
 }
 .sn2{
-	bottom: 230px;
+	bottom: 250px;
 }
 .sn3{
-	bottom: 188px;
+	bottom: 204px;
 }
 .sn4{
-	bottom: 140px;
+	bottom: 158px;
 }
 .sn5{
-	bottom: 36px;
+	bottom: 46px;
 }

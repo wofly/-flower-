@@ -67,12 +67,26 @@ $(document).ready(function(){
 		})
 			
 		};
+		$('#shiy li a').mouseover(function(){
+			index = $('#shiy li a').index(this)
+			//arr.push(index)
+			$('#shiy li a img').eq(index).css({zIndex: shu++})
+			$('#shiy li a p').eq(index).css({background : 'red'})
+			$('#shiy li a').eq(index).css({color : '#ff6a00'})
+			console.log(shu)
+		});
 		
-		
-		
-		
-		
-		
-	
+		 $('#shiy li a').mouseout(function(){
+			index = $('#shiy li a').index(this)
+			// 
+			//$('#shiy li a img').eq(index).css({zIndex: shu++})
+			$('#shiy li a p').eq(index).css({background : '#7e7e7e'})
+			$('#shiy li a').eq(index).css({color : '#7e7e7e'})
+			//console.log(shu)
+		}) ;
+		$('.san1 a img').mouseover(function(){
+			index = $('.san1 a img').index(this)
+			$('.san1 img').eq(index).css({zIndex: shu++})
+		});
 		
 })
