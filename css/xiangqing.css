@@ -227,7 +227,8 @@ header {
         color: #ff6a00;
         font-size: 14px;
         line-height: 26px;
-        display: none; }
+        display: none;
+        z-index: 500; }
         header .er4 .er44 .er5 div {
           border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
           header .er4 .er44 .er5 div a {
